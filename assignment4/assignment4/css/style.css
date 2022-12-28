@@ -1,0 +1,90 @@
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(194, 192, 192);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    color:white;
+    font-size: larger;
+    
+}
+
+.top-nav-left a{
+    
+    align-items:baseline;
+    text-decoration: none;
+    color: white;
+    gap: 1.5rem;
+    margin-bottom: 15px;
+
+    
+}
+.top-nav-right a{
+     
+    text-decoration: none;
+    color: white;
+    gap: 1.5rem;
+}
+h2 {
+   
+    text-align: center;
+    color: brown;
+}
+
+.main {
+    display: grid;
+    grid: auto / auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(194, 192, 192);
+    padding: 5px;
+    
+}
+
+.gfg {
+    background-color: white;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 15px;
+    border-color: black;
+    
+    
+}
+.gfg img{
+    width: 130px;
+    height: 100px;
+}
+.gfg h4 a{
+    text-align: left;
+    color: brown;  
+    text-decoration: none;
+}
+
+.copy {
+
+    display: flex;
+    background-color: rgb(72, 71, 71);
+    color:white;
+    margin-right: auto; 
+    
+    gap: 2rem;
+    justify-content: space-between
+    
+}
+.addSymbol:after {
+    content: ' \00a9';
+  }
+  .button{
+    border: 1px solid rgb(176, 173, 173);
+    background-color: rgb(209, 204, 204);
+    width: 150px;
+    padding: 1 em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+
+  }
